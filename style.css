@@ -1,0 +1,118 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+#MenuSuperior {
+background: #303030;
+height: 375px;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+#TituloPrincipal {
+margin-left: 62px;
+font-family: "Inter";
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+line-height: 72px;
+letter-spacing: -0.025em;
+font-feature-settings: "liga" off;
+color: #ffffff;
+}
+#SubTitulo {
+margin-left: 62px;
+font-family: "Inter";
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;  
+font-feature-settings: "liga" off;  
+color: #ffffff;
+}
+#MenuInformacional {
+font-family: "Inter";
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 28px;
+width: 100%;
+height: 66.18px;
+display: grid;
+grid-auto-flow: column;
+justify-content: space-around;
+background: #f9f9f9;
+height: 229px;
+}
+.icone {
+color: #000000;
+margin-left: 72px;
+margin-top: 96px;
+font-family: "Inter";
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 28px;
+}
+#InformacaoCentral {
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin: 80px 0px;
+}
+#Modelo {
+width: 510px;
+height: 605px;
+}
+#TituloCentral {
+font-family: "Inter";
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 20px;
+margin-left: 77px;
+}
+#SubTituloCentral {
+color: #000000;
+width: 735px;
+height: 161px;
+left: 77px;
+margin-top: 506;
+margin-left: 77px;
+}
+#MenuInferior{
+  background-color: #303030;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  }
+#Formulario{
+color: #FFFFFF;
+margin-bottom: 30px;
+text-align: center;
+
+}
+input{
+width: 508px;
+height: 72px;
+background: #FFFFFF;
+border-radius: 10px;
+left: 466px;
+top: 1661px;
+margin: 25px;
+padding-left: 25px;
+}
+button{
+  width: 286px;
+height: 74px;
+left: 577px;
+top: 1955px;
+background: #C07212;
+border-radius: 10px;
+text-align: center;
+}
+
